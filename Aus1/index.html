@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dual AUS Features and Loan Display Criteria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .lock-icon {
+            display: block;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dual AUS Features</h1>
+        <p>Dual AUS (Automated Underwriting System) is a sophisticated tool used in the mortgage industry to streamline the loan approval process. By simultaneously running both Fannie Mae's Desktop Underwriter (DU) and Freddie Mac's Loan Process Advisor (LPA), Dual AUS provides lenders with comprehensive risk assessments, helping them make informed decisions about loan approvals.</p>
+        <p>To know more about Dual Aus click <a href="https://brimmatech.com/vallia-aus/" target="_blank">here</a>.</p>
+
+        <h1>Loan Display Criteria</h1>
+        <p>Loan Display criteria states that Loan should be in prospect or in active folder.</p>
+
+        <h1>Loan Lock</h1>
+        <ul>
+            <li>When a loan is locked, a lock icon will be displayed in the pipeline view.</li>
+            <li>If the loan lock status changes while viewing the pipeline, users must refresh the page to update the lock status.</li>
+            <li>When a loan is locked, clicking on the run button will redirect users to the previous submission tab.</li>
+            <li>If a loan is locked by the admin and a user attempts to run a scenario, a popup message will appear displaying "The loan {loan number} is locked by {user}. Please try again once the loan is unlocked."</li>
+        </ul>
+        <img src="images/image.jpg" alt="Lock Icon" class="lock-icon">
+    </div>
+</body>
+
+</html>
